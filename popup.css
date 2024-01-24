@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    width: 300px;
+    height:200px;
+    max-width: 300px;
+    background-color: #a7afee;
+    transition: background-color 0.3s ease;
+    position: relative; /* Required for absolute positioning */
+  }
+  
+  h3 {
+    text-align: left;
+  }
+  
+  textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding-left: 20px; /* Space for the icon */
+  }
+  
+  button {
+    margin-right: 5px;
+  }
+  
+  .note {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    position: relative;
+  }
+  
+  .note.starred {
+    background-color: #FFD700; 
+  }
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  .note.dark-mode {
+    border-color: #555;
+    background-color: #444;
+  }
+  .cute-icon {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+  }
