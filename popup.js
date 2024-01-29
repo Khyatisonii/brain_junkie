@@ -59,25 +59,4 @@ document.addEventListener('DOMContentLoaded', function () {
     body.classList.toggle('dark-mode');
     loadNotes(); // Reload notes with updated styles
   }
-  
-  // Star a note
-//   function toggleStar(event) {
-//     const index = event.target.getAttribute('data-index');
-//     chrome.storage.sync.get(['notes'], function (result) {
-//         const notes = result.notes || [];
-//         notes[index].starred = !notes[index].starred;
-//         chrome.storage.sync.set({ 'notes': notes }, function () {
-//             loadNotes();
-//         });
-//     });
-// }
-
-  
-//   // Release stress with cute character animation
-//   function releaseStress() {
-//     const stressReliever = document.getElementById('stressReliever');
-//     stressReliever.style.transform = 'rotate(360deg)';
-//     setTimeout(() => {
-//       stressReliever.style.transform = 'rotate(0deg)';
-//     }, 500);
-//   }
+ 
