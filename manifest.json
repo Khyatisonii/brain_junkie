@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Brain Junkie",
+    "version": "1.0",
+    "description": "A Chrome extension for when you are struggling with work or study because you’ve got too much in your mind. Write down any junk thoughts or a huge to-do list to follow. This extension helps you clear your head so that overthinking won't cause you to lose your track of time.",
+    "action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
